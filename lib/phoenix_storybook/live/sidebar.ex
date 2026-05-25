@@ -173,7 +173,8 @@ defmodule PhoenixStorybook.Sidebar do
                   {name}
                 </.link>
               </div>
-            <% _ -> nil %>
+            <% _ -> %>
+              <% _ = nil %>
           <% end %>
         </li>
       <% end %>
